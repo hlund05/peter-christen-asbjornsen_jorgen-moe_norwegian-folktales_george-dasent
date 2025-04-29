@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="doll-i-the-grass.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>Letter "i" should not be capitalized because it's an elided version of "in."</reason>
+		</ignore>
+	</file>
+    <file path="nancy-fairy.xhtml">
+		<ignore>
+			<code>y-031</code>
+			<reason>No missing punctuation, quotes are not used for dialog.</reason>
+		</ignore>
+	</file>
+    <file path="osborn-boots-and-mr-glibtongue.xhtml">
+		<ignore>
+			<code>t-005</code>
+			<reason>No punctuation missing per scan.</reason>
+		</ignore>
+	</file>
+        <file path="rich-peter-the-pedlar.xhtml">
+		<ignore>
+			<code>y-003</code>
+			<reason>No punctuation missing per scan.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
